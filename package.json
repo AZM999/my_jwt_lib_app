@@ -10,16 +10,20 @@
   },
   "dependencies": {
     "next": "14.2.5",
-    "npm_jwt_tllib": "file:../npm_jwt_tllib",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-hook-form": "^7.52.2"
   },
   "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.6",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "crypto-js": "^4.2.0",
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
+    "jsonwebtoken": "^9.0.2",
+    "npm_jwt_tllib": "^1.0.4",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
